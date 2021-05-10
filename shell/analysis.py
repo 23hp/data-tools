@@ -5,8 +5,8 @@ from google.cloud import bigquery
 
 
 location = "US"
-dataset = "palak_us"
-table = 'gb_hsbc_ucm_workflow_workitem'
+dataset = "[DATASET_NAME]"
+table = '[TABLE_NAME]'
 
 client = bigquery.Client(location=location)
 
