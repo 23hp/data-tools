@@ -8,6 +8,12 @@ Support BigQuery in GCP now.
 - Query records and schema quickly
 - Print command for further modification
 
+# Prerequisites
+The script require following tools to be pre-installed.
+- Google SDK
+- Bash
+- Git
+
 # Quickstart
 
     git clone --depth 1 -b main git@github.com:23hp/easy-data.git
