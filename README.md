@@ -20,9 +20,10 @@ The script require following tools to be pre-installed.
     cd easy-data
     # make script executable
     chmod +x shell/*
-    export PATH=$PATH:$(dirname "$0")/shell/
+    export PATH=$PATH:$(pwd)/shell/
 
 # Usage
+Tips: Press `Tab` key for command auto complete.
 
 ## List Tables
 
