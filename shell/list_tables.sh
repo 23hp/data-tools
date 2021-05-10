@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# import var project & dataset
+source $(dirname "$0")/set_config
+
+keyword=$1
+
+set -xe
+
+bq query -n 9999 --nouse_legacy_sql \
+  "SELECT table_name,table_type FROM ${project}.${dataset}.INFORMATION_SCHEMA.TABLES \
+    WHERE table_name like '%${keyword}%' ORDER BY table_name"

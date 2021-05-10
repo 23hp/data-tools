@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+# get default project name
+export project=$(gcloud config get-value project)
+# TODO override with sample project, removed it in real project
+export project=bigquery-public-data
+
+# sample dataset, override with yours
+export dataset=world_bank_health_population
