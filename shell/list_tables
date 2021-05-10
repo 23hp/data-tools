@@ -7,6 +7,6 @@ keyword=$1
 
 set -xe
 
-bq query -n 9999 --nouse_legacy_sql \
+bq query -n 999 --nouse_legacy_sql \
   "SELECT table_name,table_type FROM ${project}.${dataset}.INFORMATION_SCHEMA.TABLES \
     WHERE table_name like '%${keyword}%' ORDER BY table_name"

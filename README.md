@@ -56,9 +56,5 @@ Tips: Press `Tab` key for command auto complete.
 ## Table Analysis
 TODO
 
-    # analysis [table_name]
-    # e.g. get statistics of columns in table 'country_series_definitions'
-    analysis country_series_definitions
-
 # Installation
 TODO
