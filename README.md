@@ -17,14 +17,15 @@ The script require following tools to be pre-installed.
 # Quickstart
 
     git clone --depth 1 -b main git@github.com:23hp/easy-data.git
-    cd easy-data
-    chmod +x shell/*
-    export PATH=$PATH:$(pwd)/shell/
+    chmod +x easy-data/shell/*
+    export PATH="$PATH:$(pwd)/easy-data/shell"
 
 # Usage
 Tips: Press `Tab` key for command auto complete.
 
 ## List Tables
+
+List all tables under specific dataset. Dataset and project id can be changed in shell/set_config
 
     list_tables
 
